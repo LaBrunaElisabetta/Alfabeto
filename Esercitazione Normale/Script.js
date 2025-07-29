@@ -8,7 +8,7 @@ bottone1.addEventListener("click", function showPopup(){
 
 
 let contatoreBottone = 0;
-const clickMassimi = 24;
+const clickMassimi = 21;
 
 let bottoneSkip = document.querySelector("#skip");
 let messaggio = document.querySelector("#messaggio");
