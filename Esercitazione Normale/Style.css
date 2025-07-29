@@ -1,0 +1,43 @@
+
+body {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+button{
+    padding: 15px;
+    color: rgb(255, 247, 235);
+    background-color: rgb(158, 158, 244);
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: rgb(21, 54, 124);
+    font-size: large;
+}
+
+button:hover{
+    background-color: rgb(113, 102, 231);
+    transform: scale(1.2); /* ingrandisce al 20% */
+    color: rgb(255, 217, 160);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 23px;
+}
+
+.pAlfabeto{
+    font-size: 2rem;
+      text-align: center;
+      letter-spacing: 10px;
+}
+
+
+
+
+/* Align-Items viene usato solo dentro a un contenitore, display: flex, per allineare gli elementi figli verticalmente dopo che si è impostato display: flex nel contenitore dove voglio centrare i figli nel contenitore stesso.
+
+Justify-content invece centra gli elementi e spaziarli all'interno di un contenitore, decide lui stesso come distribuirli lungo l'asse. Allinea gli elementi orizzontalmente Per le righe e Per colonne verticalmente. */
